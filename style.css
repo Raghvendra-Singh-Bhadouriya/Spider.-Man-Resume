@@ -1,0 +1,154 @@
+#parent{
+    border:0px solid black;
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    height:auto;
+    background-color: rgb(241, 37, 37);
+}
+#parent2{
+    border:0px solid black;
+    width:95%;
+    height:auto;
+    margin:auto;
+    background-color: whitesmoke; 
+    display:grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.child1{
+    border:0px solid blue;
+    background-color:rgb(71, 41, 41);
+    height:auto;
+}
+.child2{
+    border:0px solid blue;
+    /*background-image: url();*/
+    height:auto;
+    padding-left:10%;
+    padding-right:10%;
+}
+#upcircle{
+    border:0px solid red;
+    width:20%;
+    height:auto;
+    border-radius:10%;
+}
+#circle{
+    border:2px solid white;
+    width:50%;
+    height:auto;
+    margin:auto;
+    margin-top:10%;
+    border-radius:50%;
+}
+#upcircle > img{
+    width:100%;
+}
+#circle >img{
+    width:100%;
+    border-radius:50%;
+}
+#son1{
+    border:0px solid blue;
+    margin-left:5%;
+    margin-right:5%;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+span{
+    text-align: center;
+}
+p{
+    color:whitesmoke;
+    font-size: 90%;
+}
+h3{
+    color:white;
+}
+li{
+    color:whitesmoke;
+}
+table{
+    color:whitesmoke;
+    padding-bottom: 20%;
+}
+.child2>h2{
+    color:black;
+}
+.child2>li{
+    color:rgb(65, 104, 104);
+    font-size:120%;
+    font-weight: bold;  
+}
+.child2>P{
+    color:rgb(236, 49, 81);
+    font-weight: bold;
+    font-size:100%;
+}  
+#black{
+    color:black;
+    font-size:120%;
+    font-weight: bold;
+}
+ul>li{
+    color:rgb(65, 104, 104);
+    font-size:120%;
+    font-weight: bold;
+}
+
+@media all and (max-width:520px){
+    #top{
+        font-size:150%;
+    }
+    #middle{
+        font-size:90%;
+    }
+    table{
+        font-size:58%;
+    }
+    h2{
+        font-size:100%;
+    }
+    .child2>li{
+        font-size: 90%;
+    }
+    ul>li{
+        font-size: 90%;
+    } 
+    .child2>p{
+        font-size:80%;
+    }
+    #black{
+        font-size:100%;
+    }
+    li{
+        font-size:80%;
+    }
+}
+
+@media all and (min-width:521px) and (max-width:750px){
+    #top{
+        font-size:200%;
+    }
+    #middle{
+        font-size:100%;
+    }
+    table{
+        font-size:70%;
+    }
+    h2{
+        font-size:130%;
+    }
+    .child2>li{
+        font-size: 100%;
+    }
+    ul>li{
+        font-size: 100%;
+    } 
+}
+
+
+
